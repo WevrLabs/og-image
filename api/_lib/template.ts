@@ -56,7 +56,8 @@ function getCss(theme: string, fontSize: string) {
 
     code {
         color: #D400FF;
-        font-family: 'Vera';
+        font-family: 'Inter';
+        font-weight: bold;
         white-space: pre-wrap;
         letter-spacing: -5px;
     }
