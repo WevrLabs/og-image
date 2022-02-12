@@ -95,9 +95,9 @@ function getCss(theme: string, fontSize: string) {
     }
     
     .heading {
-        font-family: 'Inter', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: ${sanitizeHtml(fontSize)};
-        font-style: bold;
+        font-style: 800;
         color: ${foreground};
         line-height: 1.8;
     }`;
