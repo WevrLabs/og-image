@@ -56,8 +56,7 @@ function getCss(theme: string, fontSize: string) {
 
     code {
         color: #D400FF;
-        font-family: 'Inter';
-        font-weight: bold;
+        font-family: 'Vera';
         white-space: pre-wrap;
         letter-spacing: -5px;
     }
@@ -98,7 +97,7 @@ function getCss(theme: string, fontSize: string) {
     .heading {
         font-family: 'Inter', sans-serif;
         font-size: ${sanitizeHtml(fontSize)};
-        font-style: normal;
+        font-style: bold;
         color: ${foreground};
         line-height: 1.8;
     }`;
